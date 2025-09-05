@@ -5,6 +5,7 @@ import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Navbar from './Components/Navbar'
 import Job from './Pages/Job'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="job" element={<Job />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
